@@ -20,8 +20,5 @@
 		"typescript": "^5.0.0",
 		"vite": "^5.0.3"
 	},
-	"type": "module",
-	"dependencies": {
-		"plain-css": "^1.0.7"
-	}
+	"type": "module"
 }
