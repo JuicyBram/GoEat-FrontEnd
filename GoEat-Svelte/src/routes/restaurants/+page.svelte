@@ -56,6 +56,5 @@
             </ListGroupItem>
             {/each}
         </ListGroup>
-            
     </div>
 </div>

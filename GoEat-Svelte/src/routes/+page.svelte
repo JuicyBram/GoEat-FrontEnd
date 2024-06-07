@@ -54,7 +54,7 @@
         <Image class="img" fluid alt="This is a fluid Image" src="./src/Images/Pizza.png" />
         <h1 class="h1">GoEat</h1>
         <input class="input" type="text" placeholder="Adres, b.v. Amstelplein 10..">
-        <Button class="search-button">Zoek</Button>
+        <Button href="restaurants" class="search-button">Zoek</Button>
     </div>
 </div>
 <slot/>
