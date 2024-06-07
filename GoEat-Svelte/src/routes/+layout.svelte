@@ -9,7 +9,7 @@
 
 <style>
     :global(nav) {
-        background-color: orangered;
+        background-color: white;
         padding: 1rem;
         display: flex;
         align-items: center;
@@ -43,7 +43,7 @@
 
 
 <Navbar class="nav">
-    <img class="Logo-Size" src="./src/Logo's/GoEat-Logo.png" alt="GoEat Logo">
+    <img class="Logo-Size" src="./src/Images/GoEat-Logo.png" alt="GoEat Logo">
     <button on:click={toggleMenu} aria-label="Toggle menu">&#9776;</button>
     <div class="menu" style={isMenuOpen ? "display: block;" : "display: none;"}>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Login</a>
@@ -51,4 +51,4 @@
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Instellingen</a>
     </div>
 </Navbar>
-<slot />
+<slot/>
