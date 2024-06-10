@@ -33,7 +33,7 @@
         };
 
         try {
-            const response = await fetch('http://goeat-api.onrender.com/reservations', {
+            const response = await fetch('https://goeat-api.onrender.com/reservations', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
