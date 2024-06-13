@@ -30,18 +30,20 @@
         font-size: 50px;
     }
 
-    .input {
+    .input-button-container {
         position: absolute;
         top: 100px;
-        right: 500px;
+        right: 420px;
+        display: flex;
+        gap: 10px; /* Space between input and button */
+    }
+
+    .input {
         font-size: 20px;
         border-radius: 10px;
     }
 
     .search-button {
-        position: absolute;
-        top: 98px;
-        right: 420px;
         font-size: 20px;
         border-radius: 10px;
     }
@@ -53,8 +55,10 @@
     <div class="image-container">
         <Image class="img" fluid alt="This is a fluid Image" src="./src/Images/Pizza.png" />
         <h1 class="h1">GoEat</h1>
-        <input class="input" type="text" placeholder="Adres, b.v. Amstelplein 10..">
-        <Button href="restaurants" class="search-button">Zoek</Button>
+        <div class="input-button-container">
+            <input class="input" type="text" placeholder="Adres, b.v. Amstelplein 10..">
+            <Button href="restaurants" class="search-button">Zoek</Button>
+        </div>
     </div>
 </div>
 <slot/>
