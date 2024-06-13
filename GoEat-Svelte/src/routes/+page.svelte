@@ -35,7 +35,7 @@
         top: 100px;
         right: 420px;
         display: flex;
-        gap: 10px; /* Space between input and button */
+        gap: 10px; 
     }
 
     .input {
