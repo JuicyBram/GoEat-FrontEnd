@@ -35,6 +35,11 @@
         display: flex;
         padding: 10px;
     }
+    .restaurant-body{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
 </style>
 
 <div class="flex-container">
@@ -50,7 +55,12 @@
                     </CardHeader>
                     <CardBody>
                         <CardSubtitle>{restaurant.address}</CardSubtitle>
-                        <CardText>{restaurant.description}</CardText>
+                        <div class="restaurant-body">
+                            <CardText>
+                                {restaurant.description}
+                                <Button href="reservation" style="background-color: orangered; color: white">Make a reservation</Button>
+                            </CardText>
+                        </div>
                     </CardBody>
                 </Card>
             </ListGroupItem>
