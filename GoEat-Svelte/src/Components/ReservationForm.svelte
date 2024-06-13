@@ -45,11 +45,10 @@
                 throw new Error('Failed to submit reservation');
             }
 
-            console.log('Reservation submitted successfully');
+            alert("Reservation submitted successfully")
         } catch (error) {
-            console.error('Error submitting reservation:', error);
+            alert("Error submitting reservation")
         }
-        console.log(createReservationDTO);
     }
 
 
