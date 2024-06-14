@@ -53,15 +53,15 @@
                     <CardHeader>
                         <CardTitle>{restaurant.name}</CardTitle>
                     </CardHeader>
-                    <CardBody>
-                        <CardSubtitle>{restaurant.address}</CardSubtitle>
-                        <div class="restaurant-body">
-                            <CardText>
-                                {restaurant.description}
-                                <Button href="reservation" style="background-color: orangered; color: white">Make a reservation</Button>
-                            </CardText>
-                        </div>
-                    </CardBody>
+                        <CardBody>
+                            <CardSubtitle>{restaurant.address}</CardSubtitle>
+                            <div class="restaurant-body">
+                                <CardText>
+                                    {restaurant.description}
+                                    <Button href="reservation" style="background-color: orangered; color: white">Make a reservation</Button>
+                                </CardText>
+                            </div>
+                        </CardBody>
                 </Card>
             </ListGroupItem>
             {/each}

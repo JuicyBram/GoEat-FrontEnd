@@ -9,7 +9,7 @@
 
 <style>
     :global(nav) {
-        background-color: white;
+        background-color: orangered;
         padding: 1rem;
         display: flex;
         align-items: center;
